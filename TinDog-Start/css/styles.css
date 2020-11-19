@@ -25,7 +25,6 @@ body{
 .nav-link{
     font-family: 'Montserrat-Black',sans-serif;
     font-size: 1.2rem;
-    /* font-weight: bold; */
 
 }
 
@@ -81,7 +80,7 @@ h1{
 
 #testimonials{
     background-color: #ef8172;
-    padding: 10% 17%;
+    
     text-align: center;
     color: white;
     font-family: 'Montserrat-Black',sans-serif;
@@ -95,7 +94,13 @@ h1{
 .testimonial-image{
     /* margin-top: 5%; */
     width: 15%;
-    border-radius: 180px;
+    border-radius: 100%;
+}
+.testimonial-em{
+    margin: 3%;
+}
+.carousel-item{
+    padding: 10% 17%;
 }
 
 #press{
