@@ -113,3 +113,23 @@ h1{
     margin: 0 3%;
     width: 13%;
 }
+
+#pricing{
+    padding: 4% 10%;
+    text-align: center;
+}
+.pricing-col {
+    padding: 3% 4% ;
+}
+h2{
+    font-family: 'Montserrat-Black',sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+h3{
+    font-family: 'Montserrat-Black',sans-serif;
+    font-weight: bold;
+}
+p{
+    color: #8f8f8f;
+}
