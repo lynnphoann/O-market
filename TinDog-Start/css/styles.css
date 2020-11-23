@@ -147,6 +147,29 @@ p{
     color: #8f8f8f;
 }
 
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 20%;
+    text-align: center;
+    color: white;
+}
+.cta-h3{
+    font-size: 3rem;
+    font-weight: bold;
+}
+#footer {
+    padding-top: 7%;
+    text-align: center;
+    background: #fff;
+}
+.footer-fa {
+    padding: 0 1% 2%;
+    cursor: pointer;
+}
+.footer-p {
+    font-size: 15px;
+    font-family: 'Montserrat-Black',sans-serif;
+}
 @media (max-width: 1000px) {
     #title{
         text-align: center;
@@ -167,5 +190,11 @@ p{
     }
     .testimonial-text{
         font-size: 1.5rem;
+    }
+    #cta{
+        padding: 7% 13%;
+    }
+    .cta-h3 {
+        font-size: 2rem;
     }
 }
