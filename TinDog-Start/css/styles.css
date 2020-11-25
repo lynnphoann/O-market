@@ -1,10 +1,30 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.nav-link,
+.btn,
+.features-h3,
+#testimonials,
+.footer-p,
+h1,
+h2,
+h3 {
+    font-family: 'Monsterrat-Black', sans-serif;
+}
+
+.title,
+.features-h3,
+.cta-h3,
+h2,
+h3 {
+    font-weight: bold;
 }
 
 #title {
@@ -12,188 +32,200 @@ body{
     background-color: #ff4c68;
     /* overflow: hidden; */
 }
+
 .navnav {
     padding: 0;
 }
-.title{
+
+.title {
     font-family: 'Ubuntu', sans-serif;
     font-size: 2rem;
-    font-weight: bold;
 }
-.nav-item{
+
+.nav-item {
     padding: 0 18px;
 }
-.nav-link{
-    font-family: 'Montserrat-Black',sans-serif;
+
+.nav-link {
     font-size: 1.2rem;
 
 }
 
-h1{
-    font-family: 'Montserrat-Black',sans-serif;
+h1 {
     color: white;
-    font-size: 3.7rem;
+    font-size: 3.9rem;
     font-weight: bolder;
     line-height: 1.5;
     padding-top: 10%;
+    text-align: left;
 }
-.dog-img{
+
+.dog-img {
     width: 60%;
     transform: rotate(25deg);
     /* margin: 0px 20%; */
     position: absolute;
     right: 30%;
 }
-.dog2-img{
+
+.dog2-img {
     display: none;
 }
-.dog2-em{
+
+.dog2-em {
     display: none;
 }
-.title-contain{
+
+.title-contain {
     padding: 3% 0 18%;
 }
 
-.btn{
+.btn {
     margin: 3% 2% 0 0;
-    font-family: 'Montserrat-Black',sans-serif;
 }
 
-#features{
+#features {
     background-color: #fff;
     padding: 3% 0;
     position: relative;
     z-index: 1;
 }
-.features-row{
+
+.features-row {
     padding: 0 3%;
 }
+
 .features-col {
     padding: 5% 4%;
-    text-align: center;
 }
-.fa-3{
+
+.fa-3 {
     color: #ef8172;
     font-size: 48px;
     padding-bottom: 5%;
 }
+
 .fa-3:hover {
     color: #ff4c68;
 }
-.features-h3{
-    font-family: 'Montserrat-Black',sans-serif;
+
+.features-h3 {
     font-size: 1.5rem;
-    font-weight: bold;
 }
-.features-p{
+
+.features-p {
     color: #8f8f8f;
 }
 
-#testimonials{
+#testimonials {
     padding: 0;
     margin: 0;
     background-color: #ef8172;
-    
-    text-align: center;
     color: white;
-    font-family: 'Montserrat-Black',sans-serif;
 
 }
-.testimonial-text{
+
+.testimonial-text {
     font-size: 2.7rem;
     line-height: 1.5;
     padding-bottom: 5%;
 }
-.testimonial-image{
+
+.testimonial-image {
     /* margin-top: 5%; */
     width: 15%;
     border-radius: 100%;
 }
-.testimonial-em{
+
+.testimonial-em {
     margin: 3%;
 }
-.carousel-item{
+
+.carousel-item {
     padding: 10% 17%;
 }
 
-#press{
+#press {
     background-color: #ef8172;
     padding: 3% 0;
-    text-align: center;
 }
 
-.press-img{
+.press-img {
     margin: 0 3%;
     width: 13%;
 }
 
-#pricing{
+#pricing {
     padding: 4% 10%;
-    text-align: center;
 }
+
 .pricing-col {
-    padding: 3% 4% ;
+    padding: 3% 4%;
 }
-h2{
-    font-family: 'Montserrat-Black',sans-serif;
+
+h2 {
     font-size: 2.5rem;
-    font-weight: bold;
 }
-h3{
-    font-family: 'Montserrat-Black',sans-serif;
-    font-weight: bold;
-}
-p{
+
+
+p {
     color: #8f8f8f;
 }
 
-#cta{
+#cta {
     background-color: #ff4c68;
     padding: 7% 20%;
-    text-align: center;
     color: white;
 }
-.cta-h3{
+
+.cta-h3 {
     font-size: 3rem;
-    font-weight: bold;
 }
+
 #footer {
     padding-top: 7%;
-    text-align: center;
     background: #fff;
 }
+
 .footer-fa {
     padding: 0 1% 2%;
     cursor: pointer;
 }
+
 .footer-p {
     font-size: 15px;
-    font-family: 'Montserrat-Black',sans-serif;
 }
+
 @media (max-width: 1000px) {
-    #title{
+    #title {
         text-align: center;
     }
-    .dog-img{
+
+    .dog-img {
         display: none;
     }
-    .dog2-img{
+
+    .dog2-img {
         margin-top: 15%;
         display: inline;
         width: 45%;
 
     }
-    .dog2-em{
+
+    .dog2-em {
         display: inline;
-        font-family: 'Ubuntu',sans-serif;
+        font-family: 'Ubuntu', sans-serif;
         font-weight: bold;
     }
-    .testimonial-text{
+
+    .testimonial-text {
         font-size: 1.5rem;
     }
-    #cta{
+
+    #cta {
         padding: 7% 12%;
     }
+
     .cta-h3 {
         font-size: 2rem;
         padding-bottom: 5%;
