@@ -137,6 +137,10 @@ h5{
 
 @media (max-width: 1000px) {
     .c-card {
-        margin: 3% 5%;
+        margin: 3% 10%;
+    }
+
+    #footer {
+        margin: 10% 20% 0;
     }
 }
