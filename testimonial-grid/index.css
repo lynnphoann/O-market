@@ -68,11 +68,13 @@ h5{
 .c-body-p {
     line-height: 15px;
     color: rgb(214, 214, 214);
+    display: flex;
 }
 .c-body-p-white {
     padding-top: 8px;
     line-height: 15px;
     color: rgb(88, 86, 86);
+    display: flex;
 }
 
 
